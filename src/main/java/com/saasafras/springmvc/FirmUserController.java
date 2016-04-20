@@ -28,6 +28,7 @@ public class FirmUserController {
 	static Map<String,Employee> hashMap = new HashMap<String,Employee>();
 	static{
 		// TODO Auto-generated method stub
+		System.out.println("test change");
 		hashMap.put("1", new Employee("1","e1","e1",new Role("1","Amin")));
 		hashMap.put("2", new Employee("2","e2","e2",new Role("2","User")));
 		hashMap.put("3", new Employee("3","e3","e3",new Role("1","Amin")));
